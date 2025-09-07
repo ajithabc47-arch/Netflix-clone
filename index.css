@@ -1,0 +1,29 @@
+.nav {
+      display: flex; justify-content: space-between; align-items: center;
+        padding: 1rem 2rem; background: rgba(0,0,0,.8);
+        }
+        .nav-left { display: flex; gap: 1rem; align-items: center; }
+        .logo { height: 30px; }
+        .nav-left a { color: var(--muted); text-decoration: none; }
+        .nav-left a.active, .nav-left a:hover { color: var(--text); }
+        .avatar { width: 32px; border-radius: 50%; }
+
+        .hero {
+          position: relative; height: 60vh;
+            background-size: cover; background-position: center;
+              display: flex; align-items: flex-end;
+              }
+              .hero-shade {
+                position: absolute; inset: 0; background: linear-gradient(180deg, transparent, #000);
+                }
+                .hero-content {
+                  position: relative; padding: 2rem; max-width: 600px;
+                  }
+
+                  .row { padding: 1rem 2rem; }
+                  .row-strip {
+                    display: flex; gap: 1rem; overflow-x: auto;
+                    }
+                    .row-strip img {
+                      width: 200px; border-radius: 4px;
+                      }
